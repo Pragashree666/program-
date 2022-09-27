@@ -1,0 +1,5 @@
+p = int(input("Enter a number:"))
+Factorial = 1
+for i in range(1, p + 1):
+    Fact = Factorial * i
+print("The Factorial of",p,"is",Factorial)
