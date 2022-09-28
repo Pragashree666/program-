@@ -1,0 +1,21 @@
+def sqrSumEvenNSumOdd(p):
+    odd = 0
+    even = 0
+    for i in p:
+        if (i%2 ==0):
+            even = even+i**2
+        else:
+            odd = odd+i**2
+    p=[odd,even]
+    return p
+p=[]
+r= int(input("Enter the number of element: "))
+if r <= 0:
+      print("Invalid Input")
+    
+for i in range(r):
+    if r <0:
+      print("Invalid Input")
+    pra = int(input("Enter the element: "))
+    p.append(pra)
+print(sqrSumEvenNSumOdd(p))
