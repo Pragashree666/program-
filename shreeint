@@ -1,0 +1,18 @@
+p = int(input("Enter the Principle Amount: "))
+r = 10
+a = int(input("Enter the Number of Years: "))
+g = input("Is customer senior citizen(y/n): ")
+def SimpleInterest(p,r,a,g):
+    SI  = (p*r*a)/100
+    if ( r == 's'):
+        g = 12
+        print("The Simple Interest is ",SI)
+    elif(p<0):
+        print("Invalid Input" )
+    elif(a<0):
+        print("Invalid Input" )
+    else:
+        r = 10
+        print("The Simple Interest is ",SI)
+
+SimpleInterest(p,r,a,g)
