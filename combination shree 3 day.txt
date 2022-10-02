@@ -1,0 +1,14 @@
+shree=[]
+s= int(input("Number of elements in a list: "))
+for l in range(0,s):
+    e=int(input(" "))
+    Shree.append(e)
+print(Shree)
+    
+
+for i in range(0,s):
+   for j in range(0,s):
+      for k in range(0,s):
+         if(i!=j&j!=k&k!=i):
+            print(shree[i],shree[j],shree[k])
+
